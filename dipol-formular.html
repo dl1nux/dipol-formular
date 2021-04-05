@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta http-equiv="Content-Language" content="de">
+
+
+  
+  <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+
+
+  
+  <meta name="ProgId" content="FrontPage.Editor.Document">
+
+
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+  
+
+
+  
+  <title>DARC e.V. Ortsverband Hassberge (B37)</title>
+  <script type="text/javascript">
+<!--
+if(top!=self)
+top.location=self.location;
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+if (restore) selObj.selectedIndex=0;
+}
+//-->
+<!--
+function Schenkellaenge(LIST, FOPTIST, FOPTSOLL) {
+var VF = LIST / ( 75 / FOPTIST );
+var OPTLNG = Math.round(100 * (75 / FOPTSOLL * VF)) / 100;
+document.Formular.VF.value = VF;
+document.Formular.LSOLL.value = OPTLNG;
+}
+function chkFormular()
+{
+if(document.Formular.LIST.value == "") {
+alert("Bitte die aktuelle Schenkellänge eingeben!");
+document.Formular.LIST.focus();
+return false;
+}
+if(document.Formular.FOPTIST.value == "") {
+alert("Bitte die aktuelle Frequenz mit niedrigstem SWR eingeben!");
+document.Formular.FOPTIST.focus();
+return false;
+}
+if(document.Formular.FOPTSOLL.value == "") {
+alert("Bitte die erwünschte Frequenz mit niedrigstem SWR eingeben!");
+document.Formular.FOPTSOLL.focus();
+return false;
+}
+}
+//-->
+  </script>
+</head>
+
+
+<body>
+
+<b><big><big></big></big></b><br>
+<form name="Formular">
+  
+  <div style="border-style: outset;"> Kommazahlen
+bitte mit einem Punkt eingeben (z.B. '3.55')
+  
+  <p><input name="LIST" size="5">Aktuelle
+Schenkell&auml;nge (in Metern)<br>
+
+
+  <input name="FOPTIST" size="5"> Aktuelle
+Frequenz mit niedrigstem SWR (in MHz)<br>
+
+
+  <input name="FOPTSOLL" size="5">
+Erw&uuml;nschte Frequenz mit niedrigstem SWR (in MHz)</p>
+
+
+  
+  <p><input value="Optimale Schenkell&auml;nge ausrechnen" onclick="Schenkellaenge(document.Formular.LIST.value,document.Formular.FOPTIST.value,document.Formular.FOPTSOLL.value)" type="button"> </p>
+
+
+  
+  <p><input name="VF" size="5">
+Errechneter Verk&uuml;rzungsfaktor<br>
+
+
+  <input name="LSOLL" size="5"> Optimale
+Schenkell&auml;nge (in Metern)</p>
+
+
+  </div>
+
+
+</form>
+
+
+<p>Copyright Attila Kocis DL1NUX<br>http://www.dl1nux.de</p>
+<p>Letzte Änderung: 30.01.2021
+<br>
+</body>
+</html>
