@@ -18,3 +18,5 @@ Weitere Informationen hier:
 https://www.bravo37.de/optimierung-eines-dipols/
 
 vy 73 de Attila DL1NUX
+
+Stand: 16.04.2021
